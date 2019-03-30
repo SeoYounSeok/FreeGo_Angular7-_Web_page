@@ -1,0 +1,12 @@
+#bimage {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    background-image: url("../../../assets/images/Kiwi_Footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,22 @@
+@charset 'utf-8';
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+* {
+    font-family: 'Nanum Pen Script', cursive;
+    user-select: none;
+}
+
+#footerbar{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#category {
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #151515;
+    cursor: pointer;
+}
+
+    

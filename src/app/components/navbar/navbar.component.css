@@ -1,0 +1,39 @@
+@charset 'utf-8';
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+* {
+  font-family: 'Nanum Pen Script', cursive;
+  user-select: none;
+}
+
+#KIWI_Home {
+  margin-left: 70px;
+  font-size: 45px;
+  line-height: 60px;
+  color: #60da0f;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#KIWI_TOP {
+  text-align: right;
+  right: 0;
+  position: absolute;
+}
+
+#KIWI_List {
+  font-size: 25px;
+  line-height: 60px;
+  color: #000000;
+  letter-spacing: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+#KIWI_List:hover, #KIWI_List:focus, #KIWI_List:active {
+  color: #60da0f;
+}

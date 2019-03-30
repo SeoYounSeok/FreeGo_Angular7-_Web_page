@@ -1,0 +1,16 @@
+* {
+    width: 100%;
+}
+
+app-navbar {
+    width: 100%;
+    z-index: 99;
+    background: #ffffff;
+    position: fixed;
+}
+
+/*
+white-space:nowrap;
+overflow-x:scroll;
+overflow-y:scroll;
+*/

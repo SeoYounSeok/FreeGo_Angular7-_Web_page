@@ -1,0 +1,27 @@
+#home {
+    font-size: 35px;
+    line-height: 90px;
+    color: #60da0f;
+    letter-spacing: 0.5px;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 50px;
+     }
+    
+    #category {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 80px;
+    color: black;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+  
+    }
+
+    
