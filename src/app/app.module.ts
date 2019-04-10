@@ -11,7 +11,6 @@ import { FooterbarComponent } from './components/footerbar/footerbar.component';
 import { NgFlashMessagesModule } from 'ng-flash-messages';
 import { RouterModule, Routes } from '@angular/router';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
-import { TestComponent } from './test/test.component';
 import { PolicyPersonalInfoComponent } from './components/policy-personal-info/policy-personal-info.component';
 import { PolicyServiceComponent } from './components/policy-service/policy-service.component';
 import { PolicyLocationComponent } from './components/policy-location/policy-location.component';
@@ -24,7 +23,6 @@ import { PolicyRentComponent } from './components/policy-rent/policy-rent.compon
     FooterComponent,
     NavbarComponent,
     FooterbarComponent,
-    TestComponent,
     PolicyPersonalInfoComponent,
     PolicyServiceComponent,
     PolicyLocationComponent,
