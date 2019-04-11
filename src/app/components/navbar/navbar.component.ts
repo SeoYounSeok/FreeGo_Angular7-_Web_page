@@ -15,7 +15,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
   }
 
-  KIWI_LOGO(){
+  FreeGo_LOGO(){
     this.router.navigate(['']);   
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -26,24 +26,24 @@ export class NavbarComponent implements OnInit {
     document.getElementById('L_friend').style.display = "inline-block"
   }
 
-  KIWI_Home() {
-    document.querySelector('#Kiwi_Home').scrollIntoView({ behavior: 'smooth' });
+  FreeGo_Home() {
+    document.querySelector('#FreeGo_Home').scrollIntoView({ behavior: 'smooth' });
   }
 
-  KIWI_Service() {
+  FreeGo_Service() {
     document.querySelector('#Kiwi_ServiceIn').scrollIntoView({ behavior: 'smooth' });
   }
 
-  KIWI_AddMethod() {
+  FreeGo_AddMethod() {
     document.querySelector('#Kiwi_AddHOW').scrollIntoView({ behavior: 'smooth' });
   }
 
-  Kiwi_Safety() {
+  FreeGo_Safety() {
     document.querySelector('#Kiwi_Safety').scrollIntoView({ behavior: 'smooth' });
   }
 
-  KIWI_Alliance() {
-    document.querySelector('#Kiwi_FriendShip').scrollIntoView({ behavior: 'smooth' });
+  FreeGo_Alliance() {
+    document.querySelector('#FreeGo_FriendShip').scrollIntoView({ behavior: 'smooth' });
   }
 
 }

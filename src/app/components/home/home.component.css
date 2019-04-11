@@ -1,9 +1,50 @@
 @charset 'utf-8';
 @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+/* nanum + notosan */
+@font-face {
+  font-family: 'NotoKrL';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Noto Sans Light'), local('NotoSans-Light'), url(../../../assets/fonts/NotoSans-Light.eot);
+  src: url(../../../assets/fonts/NotoSans-Light.eot?#iefix) format('embedded-opentype'),
+  url(../../../assets/fonts/NotoSans-Light.woff2) format('woff2'),
+  url(../../../assets/fonts/NotoSans-Light.woff) format('woff');;
+  }
+  @font-face {
+  font-family: 'NotoKrR';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Noto Sans Regular'), local('NotoSans-Regular'), url(../../../assets/fonts/NotoSans-Regular.eot);
+  src: url(../../../assets/fonts/NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
+  url(../../../assets/fonts/NotoSans-Regular.woff2) format('woff2'),
+  url(../../../assets/fonts/NotoSans-Regular.woff) format('woff');
+  }
+  @font-face {
+  font-family: 'NotoKrM';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'), url(../../../assets/fonts/NotoSans-Medium.eot);
+  src: url(../../../assets/fonts/NotoSans-Medium.eot?#iefix) format('embedded-opentype'),
+  url(../../../assets/fonts/NotoSans-Medium.woff2) format('woff2'),
+  url(../../../assets/fonts/NotoSans-Medium.woff) format('woff');
+  }
+  @font-face {
+  font-family: 'NotoKrB';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(../../../assets/fonts/NotoSans-Bold.eot);
+  src: url(../../../assets/fonts/NotoSans-Bold.eot?#iefix) format('embedded-opentype'),
+  url(../../../assets/fonts/NotoSans-Bold.woff2) format('woff2'),
+  url(../../../assets/fonts/NotoSans-Bold.woff) format('woff');
+  }
+
+
 * {
-    font-family: 'Nanum Pen Script', cursive;
-    user-select: none;
+  font-family: 'NotoKrR';
+  user-select: none;
 }
+
 
 #title {
     font-size: 75px;
@@ -59,12 +100,11 @@ html, body {
     width:100%;
 }
 
-#Kiwi_Home {
+#FreeGo_Home {
     text-align: center;
     display: table;
-    width: 100%;
     height: 700px;
-    background-image: url("../../../assets/images/Kiwi_Main.jpg");
+    background-image: url("../../../assets/images/FreeGo_Main.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
