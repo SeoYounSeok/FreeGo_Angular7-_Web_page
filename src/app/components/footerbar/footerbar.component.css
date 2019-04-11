@@ -46,13 +46,14 @@
 }
 
 #footerbar{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #category {
-    font-size: 22px;
-    letter-spacing: 3px;
+  font-family: 'NotoKrB';
+    font-size: 15px;
+    letter-spacing: 2px;
     font-weight: bold;
     color: #151515;
     cursor: pointer;

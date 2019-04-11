@@ -27,7 +27,7 @@ export class NavbarComponent implements OnInit {
   }
 
   FreeGo_Home() {
-    document.querySelector('#FreeGo_Home').scrollIntoView({ behavior: 'smooth' });
+    document.querySelector('#FreeGo_Main').scrollIntoView({ behavior: 'smooth' });
   }
 
   FreeGo_Service() {
