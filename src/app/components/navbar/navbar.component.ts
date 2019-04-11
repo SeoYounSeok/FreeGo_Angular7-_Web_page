@@ -31,15 +31,15 @@ export class NavbarComponent implements OnInit {
   }
 
   FreeGo_Service() {
-    document.querySelector('#Kiwi_ServiceIn').scrollIntoView({ behavior: 'smooth' });
+    document.querySelector('#FreeGo_ServiceIn').scrollIntoView({ behavior: 'smooth' });
   }
 
   FreeGo_AddMethod() {
-    document.querySelector('#Kiwi_AddHOW').scrollIntoView({ behavior: 'smooth' });
+    document.querySelector('#FreeGo_AddHOW').scrollIntoView({ behavior: 'smooth' });
   }
 
   FreeGo_Safety() {
-    document.querySelector('#Kiwi_Safety').scrollIntoView({ behavior: 'smooth' });
+    document.querySelector('#FreeGo_Safety').scrollIntoView({ behavior: 'smooth' });
   }
 
   FreeGo_Alliance() {
