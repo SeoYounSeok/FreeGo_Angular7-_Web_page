@@ -55,8 +55,10 @@
     font-size: 15px;
     letter-spacing: 2px;
     font-weight: bold;
-    color: #151515;
+    color: #676767;
     cursor: pointer;
 }
 
-    
+#category:hover, #category:focus, #category:active {
+  color: #ffffff;
+}
