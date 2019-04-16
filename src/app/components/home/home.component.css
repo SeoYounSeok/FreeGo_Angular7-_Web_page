@@ -73,6 +73,9 @@
     margin: 0;
     margin-top: 60px;
 
+
+
+
 }
 
 #FreeGo_Content_Title{
@@ -126,6 +129,12 @@ hr{
     letter-spacing: -0.8px;
     text-align: center;
     color: #313131;
+}
+
+
+
+FreeGo_ServiceIn{
+    text-align: center;
 }
 
 #FreeGo_AddHOW{
