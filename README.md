@@ -31,14 +31,14 @@ OS : win32 x64
 - > 정보시스템공학과 학부 연구원 정부 2차 과제   
 - > Angluar 싱글 반응형 페이지
 
-## 메인 페이지 + 구성도 
+### 메인 페이지 + 구성도 
 
 ![image](https://user-images.githubusercontent.com/43161245/76686597-febdcf80-665f-11ea-9b44-2c53259fb354.png)
 
-## 서비스 소개 페이지 
+### 서비스 소개 페이지 
 
 ![image](https://user-images.githubusercontent.com/43161245/76686638-4a707900-6660-11ea-945f-d699f06320d2.png)
 
-## 기타 페이지 및 어플리케이션 + 서버 
+### 기타 페이지 및 어플리케이션 + 서버 
 
 [FreeGo-APP+SERVER] : https://github.com/SeoYounSeok/Advantech
