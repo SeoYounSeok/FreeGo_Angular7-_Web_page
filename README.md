@@ -38,7 +38,3 @@ OS : win32 x64
 ### 서비스 소개 페이지 
 
 ![image](https://user-images.githubusercontent.com/43161245/76686638-4a707900-6660-11ea-945f-d699f06320d2.png)
-
-### 기타 페이지 및 어플리케이션 + 서버 
-
-[FreeGo-APP+SERVER] : https://github.com/SeoYounSeok/Advantech
